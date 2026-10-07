@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.section1{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+      overflow-x: hidden;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav h1{
+    font-size: 50px;
+}
+
+nav h1 i{
+    display: inline-block;
+    rotate: 45deg;
+}
+
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+nav h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+nav button{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: transparent;
+    cursor: pointer;
+}
+
+.center{
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.center-part1{
+    width: 40%;
+}
+
+.center-part1 h1{
+    font-size: 55px;
+    line-height: 1;
+    font-family: monospace;
+}
+
+.center-part1 p{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.center-part1 button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.center-part2{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.center-part2 img{
+    width: 90%;
+    height: auto;
+}
+
+.section1bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section1bottom img{
+    height: 60px;
+    object-fit: contain;
+}
+
+
+
+.section2{
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 100px;
+    overflow-x: hidden;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.services h3{
+    background-color: #B9FF66;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+.services p{
+    width: 50%;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.container{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 0;
+  
+}
+
+.elem{
+    width: 48%;
+    height: 260px;
+    border: 2px solid #000;
+    border-radius: 35px;
+  
+    box-shadow: 0 10px 0 #000;
+
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  
+}
+

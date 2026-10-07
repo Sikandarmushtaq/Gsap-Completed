@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+body{
+    overflow-x:hidden ;
+}
+#main{
+    width: 100%;
+    height: 100%;
+  
+    background-image: url(https://media.istockphoto.com/id/683142468/photo/blue-sky.webp?a=1&b=1&s=612x612&w=0&k=20&c=KsMJ1ZOp9a7hfJj91YucaH5bJmr-LMZBhsWGzZd_bWQ=);
+background-size:cover;
+background-position: center;
+
+}
+#nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    color: white;
+    
+}
+#nav h2{
+    font-size: 30px;
+}
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+
+}
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.432);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 150px 60px;
+}
+#full h4{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: white;
+    border-radius: 50%;
+  padding: 5px;
+  font-weight: 800;
+  font-size: 20px;
+}
